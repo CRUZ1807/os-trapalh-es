@@ -1,0 +1,55 @@
+*{
+    margin: 0%;
+    border: 0%;
+    padding: 0%;
+    background-color: black;
+    color: white;
+}
+header{
+    border: 2px solid black;
+    height: 200px;
+}
+header div img:first-of-type{
+    width: 200px;  
+    height: 200px;
+}
+header div img:last-of-type{
+    background: none;
+    position: relative;
+    left: -140px;
+    width: 65px;
+    height: 75px;
+}
+header h1{
+    font-size: 85px;
+    position: relative;
+    right: -5%;
+    top: 20%;
+}
+header div{
+    margin-left: 105px;
+    margin-top: 15px;
+}
+header div h1{
+    background-size: cover;
+    font-size: 50px;
+    position: relative;
+    top: -110px;
+    left: 48px;
+}
+header p{
+    background: none;
+    position: relative;
+    top: -40px;
+    right: -470px;
+    font-size: 25px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+}
+main{
+    padding-top: 100px;
+}
+main #img-main-1{
+    background: none;
+    width: 100px;
+    height: 80px;
+}
