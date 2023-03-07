@@ -2,12 +2,11 @@
     margin: 0%;
     border: 0%;
     padding: 0%;
-    background-color: black;
     color: white;
 }
 header{
-    border: 2px solid black;
     height: 200px;
+    background-color: black;
 }
 header div img:first-of-type{
     width: 200px;  
@@ -46,7 +45,10 @@ header p{
     font-family: Brush Script MT, Brush Script Std, cursive;
 }
 main{
+    height: auto;
+    padding-bottom: 40px;
     padding-top: 100px;
+    background-color: black;
 }
 main #img-main-1{
     position: relative;
@@ -82,7 +84,6 @@ main .textos h2:last-of-type{
     margin-top: 30px;
 }
 main .textos section{
-    margin-bottom: ;
 }
 main .textos section p{
     width: 865px;
@@ -91,4 +92,23 @@ main .textos section p{
 main .textos section img{
     width: 300px;
     height: 300px;
+}
+footer{
+    padding: 30px;
+    height: auto;
+    width: 100%;
+    background-color: grey;
+}
+footer div{
+    background-color: grey;
+}
+footer div h2{
+    position: relative;
+    top: 20px;
+    left: 150px;
+}
+footer div p{
+    position: relative;
+    left: 100px;
+    top: 30px;
 }
